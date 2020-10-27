@@ -20,7 +20,7 @@ class Record_1 {
 	public static void init() throws FileNotFoundException {
 		customers = FileParser.getCustomers(Configuration.CSV_File);
 	}
-
+                                      
 	@Test
 	@DisplayName("Record 1: FirstName is Portia")
 	void FirstNameOfRecord1() {
